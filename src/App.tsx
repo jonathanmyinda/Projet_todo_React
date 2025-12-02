@@ -56,6 +56,8 @@ function App() {
     setTodos(newTodos)
   }
 
+  const [selectedTodos , setSelectedTodos]  = useState<Set<number>>(new Set())
+
   return (
     <div className="flex justify-center">
       <div className="w-2/3 flex flex-col gap-4 my-15 bg-base-300 p-5 rounded-2xl">
@@ -93,7 +95,7 @@ function App() {
           <ul className='divide-y divide-primary/20'>
             {filteredTodos.map((todo) => (
               <li key={todo.id}>
-                <TodoItem todo={todo} onDelete={() => deleteTodo(todo.id)} />
+                <TodoItem todo={todo} onDelete={() => deleteTodo(todo.id)} isSelected={selectedTodos.has(todo.id)} />
               </li>
             ))}
           </ul>

@@ -11,14 +11,15 @@ type todo = {
 type props = {
   todo: todo
   onDelete: () => void
+  isSelected: boolean
 }
 
-const TodoItem = ({ todo , onDelete }: props) => {
+const TodoItem = ({ todo , onDelete , isSelected}: props) => {
   return (
     <li className="p-3">
       <div className="flex justify-between items-center">
         <div className="flex items-center gap-2">
-          <input type="checkbox" className="checkbox checkbox-primary checkbox-xs"/>
+          <input type="checkbox" className="checkbox checkbox-primary checkbox-xs" checked= {isSelected} />
           <span className="text-md font-bold">
             <span>
               {todo.text}
