@@ -133,7 +133,7 @@ function App() {
           <div className='flex justify-center items-center p-6'>
             <div>
               <Construction strokeWidth={1} className='w-40 h-40 text-primary'/>
-              <p className='text-sm'>Aucue tache poursuivie por ce filtre</p>
+              <p className='text-sm'>Aucue tache poursuivie pour ce filtre</p>
             </div>
           </div>
         )}
