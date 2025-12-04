@@ -12,27 +12,15 @@ Une application Todo moderne construite avec React, TypeScript, et Vite, permett
 
 💾 Sauvegarde automatique via localStorage
 
-🎨 UI moderne, badges de priorité, transitions fluides
+🎨 UI moderne, badges de priorité, transitions fluides, responsive design
 
 ⚡ Développé avec Vite pour un rendu ultra rapide
 
 🛡️ Code 100% TypeScript (types stricts)
 
-📂 Structure du projet
-src/
-│── components/
-│   └── TodoItem.tsx
-│
-│── App.tsx
-│── main.tsx
-│── index.css
-│
-package.json
-vite.config.ts
-
 💻 Installation & utilisation
 1️⃣ Cloner le projet
-git clone https://github.com/ton-repo/todo-app.git
+git clone https://github.com/jonathanmyinda/Projet_todo_React.git
 cd todo-app
 
 2️⃣ Installer les dépendances
@@ -61,13 +49,11 @@ TypeScript
 
 Vite
 
-DaisyUI / TailwindCSS (si tu les as utilisé)
+DaisyUI / TailwindCSS
 
 localStorage
 
-📸 Aperçu (optionnel)
 
-(Ajoute une capture d’écran si tu veux 🔥)
 
 👨‍💻 Auteur
 
