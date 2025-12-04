@@ -18,19 +18,6 @@ Une application Todo moderne construite avec React, TypeScript, et Vite, permett
 
 🛡️ Code 100% TypeScript (types stricts)
 
-💻 Installation & utilisation
-1️⃣ Cloner le projet
-git clone https://github.com/jonathanmyinda/Projet_todo_React.git
-cd todo-app
-
-2️⃣ Installer les dépendances
-npm install
-
-3️⃣ Lancer le serveur de développement
-npm run dev
-
-4️⃣ Build pour la production
-npm run build
 
 🧩 Types utilisés
 type priority = "urgente" | "moyenne" | "basse";
